@@ -1,6 +1,7 @@
 @import 'reset';
 @import 'variables';
 @import 'home';
+@import 'config';
 
 body {
     background-color: $primary_colour;
@@ -37,6 +38,7 @@ main {
 
         a {
             padding: 0.4rem;
+            @include transition-ease;
 
             &:hover {
                 color: $secondary_colour;
