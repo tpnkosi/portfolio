@@ -25,6 +25,10 @@ h6 {
     font-family: "Raleway", sans-serif;
 }
 
+h2 {
+    padding-top: 0.7em;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -357,15 +361,28 @@ section {
 
 .about .about_me {
     width: 100%;
-    margin: auto;
+    margin: 1.6em 0 1.6em 0;
     justify-content: center;
     line-height: 1.5em;
     letter-spacing: 0.1em;
+    padding: 1em 1em 1em 1em;
+    background-color: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.13);
 }
 
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+
+.services .row {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1.6em;
+    padding: 1em 1em 0 1em;
+    background-color: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.13);
+}
+
 .services .icon-box {
     margin-bottom: 20px;
 }
@@ -418,6 +435,13 @@ section {
 
 .portfolio {
     background-color: #fff;
+}
+
+.portfolio p {
+    margin-bottom: 1.6em;
+    padding: 1em 1em 1em 1em;
+    background-color: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.13);
 }
 
 /*--------------------------------------------------------------
