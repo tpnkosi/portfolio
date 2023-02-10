@@ -359,7 +359,7 @@ section {
         sans-serif;
 }
 
-.about .about_me {
+.about .container p  {
     width: 100%;
     margin: 1.6em 0 1.6em 0;
     justify-content: center;
@@ -374,7 +374,7 @@ section {
 # Skills
 --------------------------------------------------------------*/
 
-.services .row {
+.skills .row {
     width: 100%;
     margin: auto;
     margin-bottom: 1.6em;
@@ -383,11 +383,11 @@ section {
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.13);
 }
 
-.services .icon-box {
+.skills .icon-box {
     margin-bottom: 20px;
 }
 
-.services .icon {
+.skills .icon {
     float: left;
     display: flex;
     align-items: center;
@@ -400,32 +400,32 @@ section {
     border: 1px solid #149ddd;
 }
 
-.services .icon i {
+.skills .icon i {
     color: #fff;
     font-size: 24px;
     line-height: 0;
 }
 
-.services .icon-box:hover .icon {
+.skills .icon-box:hover .icon {
     background: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.skills .icon-box:hover .icon i {
     color: #149ddd;
 }
 
-.services .title {
+.skills .title {
     margin-left: 80px;
     font-weight: 700;
     margin-top: 15px;
     font-size: 18px;
 }
 
-.services .title a {
+.skills .title a {
     color: #343a40;
 }
 
-.services .title a:hover {
+.skills .title a:hover {
     color: #149ddd;
 }
 
