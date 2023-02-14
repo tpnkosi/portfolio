@@ -626,8 +626,7 @@ section {
 }
 
 #footer .copyright {
-    /* text-align: center; */
-    margin-left: 2em;
+    text-align: center;
 }
 
 @media (max-width: 1199px) {
