@@ -225,6 +225,14 @@ header .profile .social-links a:hover {
 # Home Section
 --------------------------------------------------------------*/
 
+#home {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/home_page_web_glitter.jpg") top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 #home:before {
     content: "";
     background: rgba(5, 13, 24, 0.3);
@@ -243,17 +251,14 @@ header .profile .social-links a:hover {
 }
 
 #home h2 {
-    margin: 0 0 10px 0;
-    font-size: 64px;
+    margin: 0.3em 0.3em 0.3em 0.3em;
     font-weight: 700;
-    line-height: 56px;
     color: #fff;
 }
 
-#home p {
+#home .desc {
     color: #fff;
-    margin-bottom: 50px;
-    font-size: 26px;
+    margin: 0 0.3em 0.3em 0.4em;
     font-family: "Poppins", sans-serif;
 }
 
@@ -265,67 +270,35 @@ header .profile .social-links a:hover {
 }
 
 @media (min-width: 768px) {
-    #home {
-        width: 100%;
-        height: 100vh;
-        background: url("../images/home_page_web_glitter.jpg") top center;
-        background-size: cover;
-        background-attachment: fixed;
+    #home h2 {
+        font-size: 5em;
+    }
+    
+    #home .desc {
+        font-size: 2em;
     }
 }
 
 @media (max-width: 767px) {
-    #home {
-        width: 100%;
-        height: 100vh;
-        background: url("../images/home_page_web_glitter.jpg") top center;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-}
-
-@media (min-width: 320px) {
-    #home {
-        width: 100%;
-        height: 100vh;
-        background: url("../images/home_page_web_glitter.jpg") top center;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
     #home h2 {
-        width: 100%;
         font-size: 4em;
-        line-height: 1.2em;
-        margin-bottom: 30px;
-        overflow-wrap: break-word;
     }
-
-    #home p {
+    
+    #home .desc {
         font-size: 1.5em;
-        overflow-wrap: break-word;
     }
 }
 
 @media (max-width: 319px) {
-
     #home h2 {
-        width: 100%;
-        font-size: 32px;
-        line-height: 1em;
-        padding-left: 0.5em;
-        overflow-wrap: break-word;
+        font-size: 2.5em;
     }
-
-    #home p {
-        width: 100%;
-        margin: 1.6em 0 1.6em 0;
-        padding: 1em 1em 1em 1em;
-        font-size: 13px;
-        overflow-wrap: break-word;
+    
+    #home .desc {
+        font-size: 1em;
     }
-
 }
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
